@@ -33,7 +33,7 @@ FE개발팀에서 배포하는 모든 컴포넌트 및 Application은 **가독�
 
 ## CodeSnippet 사용법
 * 전체 CodeSnippet 모듈이 빌드된 파일 사용하기
- * [[master branch]](https://github.nhnent.com/FE/Share-CodeSnippet)에서 code-snippet.js 또는 code-snippet.min.js을 다운로드 받아 사용
+ * [[master branch]](https://github.com/nhnent/fe.code-snippet/tree/master)에서 code-snippet.js 또는 code-snippet.min.js을 다운로드 받아 사용
  * 혼란을 줄이기위해 파일명(code-snippet.js 또는 code-snippet.min.js)은 그대로 사용하기를 권장
  * FE개발팀에서 배포한 Component를 병행하여 사용한다면, Component를 CodeSnippet이 포함되지 않은 버전으로 사용할 것을 권장
 * 필요한 부분만 복사하여 사용하기
@@ -41,12 +41,12 @@ FE개발팀에서 배포하는 모든 컴포넌트 및 Application은 **가독�
  * FE개발팀에서 배포한 Component를 병행하여 사용한다면, 전체 CodeSnippet 모듈이 빌드된 파일 사용하기를 권장
 
 ## Documentation
-* **Tutorial** - [준비중]
-* **CI** - http://fe.nhnent.com:8080/jenkins/job/share-code-snippet/
+* **API** - https://nhnent.github.io/fe.code-snippet/1.0.0/
+* **Tutorial** - https://github.com/nhnent/fe.javascript/wiki/FE-CodeSnippet
 
 ## Download/Install
-* Bower: `bower install "git+http://3c672057a1ac16c4e6f1baaba73e24d5270ef453:x-oauth-basic@github.nhnent.com/fe/share-code-snippet.git#tag"`
-* Download: https://github.nhnent.com/fe/share-code-snippet
+* Bower: `bower install ne-code-snippet#master`
+* Download: https://github.com/nhnent/fe.code-snippet
 
 
 ## History
