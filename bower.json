@@ -1,11 +1,10 @@
 {
-  "name": "code-snippet",
+  "name": "ne-code-snippet",
   "version": "1.0.0",
   "authors": [
     "FE"
   ],
-  "license": "PRIVATE",
-  "private": true,
+  "license": "MIT",
   "main": "code-snippet.js",
   "ignore": [
     "**/.*",

@@ -1,4 +1,5 @@
-## CodeSnippet
+CodeSnippet
+======================
 코드 스니펫<br>
 CodeSnippet이란, <br>
 타입체크나 배열처리와 같이 **자주 사용되는 코드 조각**을 모아둔 것으로,<br>
@@ -47,7 +48,7 @@ FE개발팀에서 배포하는 모든 컴포넌트 및 Application은 **가독�
 
 ## CodeSnippet 사용법
 * 전체 CodeSnippet 모듈이 빌드된 파일 사용하기
- * [[master branch]](https://github.nhnent.com/FE/Share-CodeSnippet)에서 code-snippet.js 또는 code-snippet.min.js을 다운로드 받아 사용
+ * [[master branch]](https://github.com/nhnent/fe.code-snippet/tree/master)에서 code-snippet.js 또는 code-snippet.min.js을 다운로드 받아 사용
  * 혼란을 줄이기위해 파일명(code-snippet.js 또는 code-snippet.min.js)은 그대로 사용하기를 권장
 * 필요한 부분만 복사하여 사용하기
  * 각 모듈에 명시된 **의존성을 확인**하여 필요한 모듈을 함께 복사해서 사용
@@ -55,17 +56,25 @@ FE개발팀에서 배포하는 모든 컴포넌트 및 Application은 **가독�
 * 자세한 사용법은 별도의 문서로 3월중 배포 예정
 
 ## Documentation
-* **API** - https://github.nhnent.com/pages/fe/share-code-snippet/
-* **Tutorial** - [준비중]입니다.
-* **CI** - http://fe.nhnent.com:8080/jenkins/job/share-code-snippet/
+* **API** - https://nhnent.github.io/fe.code-snippet/1.0.0/
+* **Tutorial** - https://github.com/nhnent/fe.javascript/wiki/FE-CodeSnippet
+
+## Test environment
+* browser :
+   * IE7~11
+   * Chrome
+   * Firefox
 
 ## Download/Install
-* Bower: `bower install "git+http://3c672057a1ac16c4e6f1baaba73e24d5270ef453:x-oauth-basic@github.nhnent.com/fe/share-code-snippet.git#1.0.0"`
-* Download: https://github.nhnent.com/fe/share-code-snippet
+* Bower:
+   * 최신버전 : `bower install ne-code-snippet#master`
+   * 특정버전 : `bower install ne-code-snippet[#tag]`
+* Download: https://github.com/nhnent/fe.code-snippet
 
 
 ## History
 | Version | Description | Date | Developer |
 | ---- | ---- | ---- | ---- |
-| 1.0.0 | jquery dependency 제거 | 2015.03 | FE개발팀 |
+| 1.0.1 | isExisty 스펙 변경, pick 메서드 추가, type 체크 변경 | 2015.04 | FE개발팀 |
+| <a href="https://nhnent.github.io/fe.code-snippet/1.0.0/">1.0.0</a> | jquery dependency 제거 | 2015.03 | FE개발팀 |
 | 0.1.0 | 최초개발 | 2014.09 | FE개발팀 |
